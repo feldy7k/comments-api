@@ -1,0 +1,6 @@
+@CommentsAPI_HostAddress = http://localhost:5101
+
+GET {{CommentsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentsAPI", "CommentsAPI\CommentsAPI.csproj", "{73F0E1BB-370B-43FD-AD3B-85B1933BFACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F0E1BB-370B-43FD-AD3B-85B1933BFACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F0E1BB-370B-43FD-AD3B-85B1933BFACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F0E1BB-370B-43FD-AD3B-85B1933BFACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F0E1BB-370B-43FD-AD3B-85B1933BFACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3319F9C-06A9-4EC3-AA4B-7FE267A74696}
+	EndGlobalSection
+EndGlobal
