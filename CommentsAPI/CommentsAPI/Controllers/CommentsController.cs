@@ -17,10 +17,13 @@ namespace CommentsAPI.Controllers
             if (ModelState.IsValid)
             {
                 // Sanitize input manually
-                string resultSanitized = model.Content;
+                model.Content = HtmlSanitizer.Sanitize(model.Content);
 
+                // Save the comment to the database
+                // db.Comments.Add(model);
+                // db.SaveChanges();
 
-                return Ok(model);
+                return Ok(new { message = "Comment created successfully" });
             }
             return BadRequest(ModelState);
         }
